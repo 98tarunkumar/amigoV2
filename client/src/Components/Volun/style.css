@@ -1,0 +1,138 @@
+.volunBlock {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  background-color: #ffffffef;
+}
+.volunBody {
+  width: 80%;
+  height: 500px;
+  /* border: 1px solid black; */
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.volunLeft {
+  width: 50%;
+  height: 100%;
+}
+.volunRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.volunFormBody {
+  width: 100%;
+  height: 88%;
+  border:3px solid #3298C7;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.volunFormHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.volunFormRow {
+  width: 100%;
+  height: 40px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.volunCalendar {
+  z-index: 2;
+}
+.volunInput {
+  height: 30px;
+  width: 120%;
+  margin-left: 1rem;
+}
+.volunFromBtn {
+  width: 100%;
+  height: 10%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.volunSubmit {
+  width: 100px;
+  height: 40px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #3298c7;
+  white-space: nowrap;
+  padding: 10px 20px;
+  color: #ffffffef;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.volunSubmit:hover {
+  transition: all 0.2s ease-in-out;
+  background: #3398c7;
+  color: #010606;
+}
+.goVolun {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  background: #EFEFEF;
+  color: black;
+  z-index: 2;
+  margin-top: -0.5rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.goVolun:hover {
+  transition: all 0.2s ease-in-out;
+  color: #3398c7;
+}
+.formTable {
+  width: 100%;
+  height: 88%;
+  border-radius: 0.5rem;
+  display: table;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.formRow {
+  display: table-row;
+  height: 30px;
+}
+.formCells {
+  display: table-cell;
+  width: 33%;
+}
+.dateStyle {
+  padding-left: 1rem;
+}
+.volunFormLabel {
+  font-weight: bold;
+}

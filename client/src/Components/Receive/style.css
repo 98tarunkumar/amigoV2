@@ -1,0 +1,178 @@
+.ReceiveBlock {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.receiveHead {
+  width: 80%;
+  height: 60px;
+  border: 0.3px solid #e3e3e3;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #232a34;
+}
+.searchComponent {
+  width: 60%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0.75rem;
+}
+.searchBox {
+  width: 50%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.searchBtn {
+  /* padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #3298c7; */
+  border-radius: 0.5rem;
+  background: #3298c7;
+  white-space: nowrap;
+  padding: 10px 20px;
+  color: #e3e3e3;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease -in-out;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.searchBtn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #3398c7;
+  color: #010606;
+}
+.filterComponent {
+  width: 20%;
+  height: 40px;
+  background-color: #e3e3e3;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-self: end;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9%;
+  margin-right: 0.75rem;
+}
+.addNewReq {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.linkStyle {
+  color: inherit;
+  text-decoration: none;
+}
+.addNewReqIcon {
+  height: 40px;
+  width: 40px;
+  background-color: #3398c7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.goService {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  color: #e3e3e3;
+}
+.goService:hover {
+  transition: all 0.2s ease-in-out;
+  color: #3398c7;
+}
+.receiveBody {
+  width: 80%;
+  height: 500px !important;
+  border: 0.3px solid #e3e3e3 !important;
+  border-radius: 0.5rem;
+  background: #232a34;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow-y: scroll;
+}
+.receiveBodyBlock {
+  width: 100%;
+  min-height: 140px;
+  background: transparent;
+  color: #e3e3e3;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e3e3e3;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.receiveRow {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.receiveRowOption {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.selectWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+.receiveAvail {
+  /* border: 1px solid white; */
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #3398c7;
+  cursor: pointer;
+}
+.receiveAvail:hover {
+  transition: all 0.2s ease-in-out;
+  background: #3398c7;
+  color: #010606;
+}
+.availabilityOrder {
+  margin-right: 0.5rem;
+}
+.selectBtn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.emailBody {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
