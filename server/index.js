@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const routeIndex = require('./routes/index.js');
 
 const app = express();
-const PORT = 5050;
+var PORT = process.env.PORT || 5050;
 
 app.use(cors());
 app.use(bodyParser.json());

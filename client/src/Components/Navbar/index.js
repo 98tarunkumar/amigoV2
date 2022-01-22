@@ -14,7 +14,6 @@ import { MoBln } from './NavbarComponents';
 import { animateScroll as scroll } from 'react-scroll';
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
-
   const changeNav = () => {
     if (window.scrollY >= 80) {
       setScrollNav(true);

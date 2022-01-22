@@ -17,7 +17,7 @@ function Receive({ setIsReceive }) {
   const [asc, setAsc] = useState(false);
   const [showEmail, setShowEmail] = useState(false);
   useEffect(() => {
-    axios.get('http://localhost:5050/').then((response) => {
+    axios.get('https://amigoservers.herokuapp.com/').then((response) => {
       setData(response.data);
       //console.log(response.data);
     });

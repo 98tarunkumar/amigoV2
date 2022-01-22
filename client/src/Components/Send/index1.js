@@ -61,7 +61,7 @@ function Send({ setIsSend }) {
     ) {
       NotificationManager.error('Please fill the form!', 'Form Empty', 2500);
     } else {
-      axios.post('http://localhost:5050/', formState).then(() => {
+      axios.post('https://amigoservers.herokuapp.com/', formState).then(() => {
         console.log('success');
         NotificationManager.success('Thanks for supporting us!', 'Form Submitted');
       });
