@@ -1,6 +1,6 @@
 # AMIGO | Multi-User Tool
 
-![AMIGO Logo](https://via.placeholder.com/600x200?text=AMIGO+Logo)
+![AMIGO Logo](https://via.placeholder.com/300x100?text=AMIGO+Logo)
 
 🚀 **AMIGO** is a powerful web application designed to streamline collaboration by allowing users to submit requests, view others' requests, and provide assistance—all within a seamless and intuitive platform.
 
@@ -15,18 +15,18 @@
 ## 🛠️ Tech Stack
 
 ### Frontend: **React**
-![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/50px-React-icon.svg.png)
 - Modern UI with React.js for seamless user interactions.
 - Component-based architecture for easy scalability.
 
 ### Backend: **Node.js & Express.js**
-![Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
-![Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png)
+![Node.js](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/50px-Node.js_logo.svg.png)
+![Express.js](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/50px-Expressjs.png)
 - High-performance backend using **Node.js**.
 - **Express.js** for efficient routing and request handling.
 
 ### Database: **SQL**
-![SQL](https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png)
+![SQL](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/50px-Sql_data_base_with_logo.png)
 - Structured and optimized database management using **SQL**.
 - Supports complex queries and ensures data integrity.
 
